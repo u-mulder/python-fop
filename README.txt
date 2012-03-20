@@ -1,0 +1,1 @@
+THis is my beginners python script for chmod and iconv files operations. Use it if U like.
