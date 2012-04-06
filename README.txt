@@ -5,6 +5,13 @@ Usage: python chmod.php [ARGUMENTS]
 -e (--extension) - extension of the files which should be changed without . (e.g. php or html). Multiple extensions not supperted.
 Or use standard --help (-h) to get help text.
 
-2. Also i'm going to write an iconv scipt. Later)
+2. iconv.py - this is my beginners python script for iconv files by extension.
+Usage: python iconv.php [ARGUMENTS]
+-r - if set - recursive
+-e (--extension) - extension of the files which should be changed without . (e.g. php or html). Multiple extensions not supperted.
+-n (--new) extension added for changed files (.new by default, file.php will be file.php.new)
+-f (--from) encoding from (by default utf-8)
+-t (--to) encoding to (by default cp1251)
+Or use standard --help (-h) to get help text.
 
 Use files or fork'em if U like.
