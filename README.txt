@@ -14,4 +14,10 @@ Usage: python iconv.php [ARGUMENTS]
 -t (--to) encoding to (by default cp1251)
 Or use standard --help (-h) to get help text.
 
+3. component_generator.py - script for creating 1c-bitrix components structure main files 
+- component.php (with lang file for RU-language)
+- .description.php (with lang file for RU-language)
+- .parameters.php (with lang file for RU-language)
+- template folder and default template file (with lang file for RU-language)
+
 Use files or fork'em if U like.
