@@ -19,6 +19,7 @@ def main():
         new_file = open(os.path.join(cwd, key), 'w')
         try:
             new_file.write(file_content[file_paths[key]])
+            os.chmod(os.path.join(cwd, key), int('646', 8))
         except Exception:
             continue
         finally:
